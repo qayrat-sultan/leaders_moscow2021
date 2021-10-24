@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+<p>ALLOOO</p>
+
+
+{% block content %}
+    {% for my in myfiles %}
+        <a href="files/{{ my }}">{{ my }}</a>
+    {% endfor %}
+<div><a href="file/">Upload new file</a></div>
+{% endblock content %}
+
+
