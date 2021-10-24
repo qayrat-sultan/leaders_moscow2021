@@ -6,6 +6,6 @@
     <form action="{% url 'file' %}" method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form }}
-    <button type="submit" class="btn btn-success">Save person</button>
+    <button type="submit" class="btn btn-success">Загрузить файл</button>
   </form></div>
 {% endblock %}
